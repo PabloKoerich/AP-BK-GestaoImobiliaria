@@ -1,5 +1,5 @@
 # AP-BK-GestaoImobiliaria
-### Hist?ria de John Wick e sua Imobili?ria em Lages
+### História de John Wick e sua Imobili?ria em Lages
 
 ---
 
