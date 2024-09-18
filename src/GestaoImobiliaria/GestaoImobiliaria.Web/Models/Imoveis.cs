@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace GestaoImobiliaria.Web.Models;
 
-public partial class Imovei
+public partial class Imoveis
 {
     public int ImovelId { get; set; }
 
@@ -31,9 +31,9 @@ public partial class Imovei
 
     public virtual Cliente ClienteDono { get; set; } = null!;
 
-    public virtual Corretore CorretorGestor { get; set; } = null!;
+    public virtual Corretores CorretorGestor { get; set; } = null!;
 
-    public virtual Corretore? CorretorNegocio { get; set; }
+    public virtual Corretores? CorretorNegocio { get; set; }
 
     public virtual ICollection<Favorito> Favoritos { get; set; } = new List<Favorito>();
 

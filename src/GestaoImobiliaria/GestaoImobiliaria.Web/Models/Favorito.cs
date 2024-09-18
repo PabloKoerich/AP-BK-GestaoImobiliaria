@@ -15,5 +15,5 @@ public partial class Favorito
 
     public virtual Cliente Cliente { get; set; } = null!;
 
-    public virtual Imovei Imovel { get; set; } = null!;
+    public virtual Imoveis Imovel { get; set; } = null!;
 }

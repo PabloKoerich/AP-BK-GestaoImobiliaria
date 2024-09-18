@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace GestaoImobiliaria.Web.Models;
 
-public partial class Corretore
+public partial class Corretores
 {
     public int CorretorId { get; set; }
 
@@ -17,9 +17,9 @@ public partial class Corretore
 
     public string? Email { get; set; }
 
-    public virtual ICollection<Imovei> ImoveiCorretorGestors { get; set; } = new List<Imovei>();
+    public virtual ICollection<Imoveis> ImoveisCorretorGestors { get; set; } = new List<Imoveis>();
 
-    public virtual ICollection<Imovei> ImoveiCorretorNegocios { get; set; } = new List<Imovei>();
+    public virtual ICollection<Imoveis> ImoveisCorretorNegocios { get; set; } = new List<Imoveis>();
 
     public virtual ICollection<MensagensContato> MensagensContatos { get; set; } = new List<MensagensContato>();
 }

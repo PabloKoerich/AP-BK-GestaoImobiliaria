@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GestaoImobiliaria.Dominio\GestaoImobiliaria.Dominio.csproj" />
+  </ItemGroup>
+
 </Project>

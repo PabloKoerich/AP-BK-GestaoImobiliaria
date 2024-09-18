@@ -17,11 +17,11 @@ public partial class ImobiliariaDbContext : DbContext
 
     public virtual DbSet<Cliente> Clientes { get; set; }
 
-    public virtual DbSet<Corretore> Corretores { get; set; }
+    public virtual DbSet<Corretores> Corretores { get; set; }
 
     public virtual DbSet<Favorito> Favoritos { get; set; }
 
-    public virtual DbSet<Imovei> Imoveis { get; set; }
+    public virtual DbSet<Imoveis> Imoveis { get; set; }
 
     public virtual DbSet<MensagensContato> MensagensContatos { get; set; }
 
@@ -45,7 +45,7 @@ public partial class ImobiliariaDbContext : DbContext
             entity.Property(e => e.Telefone).HasMaxLength(20);
         });
 
-        modelBuilder.Entity<Corretore>(entity =>
+        modelBuilder.Entity<Corretores>(entity =>
         {
             entity.HasKey(e => e.CorretorId).HasName("PK__Corretor__4878C58F372F64E7");
 
@@ -79,7 +79,7 @@ public partial class ImobiliariaDbContext : DbContext
                 .HasConstraintName("FK__Favoritos__Imove__46E78A0C");
         });
 
-        modelBuilder.Entity<Imovei>(entity =>
+        modelBuilder.Entity<Imoveis>(entity =>
         {
             entity.HasKey(e => e.ImovelId).HasName("PK__Imoveis__68DA341CEE9B46B8");
 
@@ -95,12 +95,12 @@ public partial class ImobiliariaDbContext : DbContext
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__Imoveis__Cliente__4316F928");
 
-            entity.HasOne(d => d.CorretorGestor).WithMany(p => p.ImoveiCorretorGestors)
+            entity.HasOne(d => d.CorretorGestor).WithMany(p => p.ImoveisCorretorGestors)
                 .HasForeignKey(d => d.CorretorGestorId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__Imoveis__Correto__412EB0B6");
 
-            entity.HasOne(d => d.CorretorNegocio).WithMany(p => p.ImoveiCorretorNegocios)
+            entity.HasOne(d => d.CorretorNegocio).WithMany(p => p.ImoveisCorretorNegocios)
                 .HasForeignKey(d => d.CorretorNegocioId)
                 .HasConstraintName("FK__Imoveis__Correto__4222D4EF");
         });

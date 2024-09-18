@@ -19,7 +19,7 @@ public partial class MensagensContato
 
     public virtual Cliente Cliente { get; set; } = null!;
 
-    public virtual Corretore Corretor { get; set; } = null!;
+    public virtual Corretores Corretor { get; set; } = null!;
 
-    public virtual Imovei Imovel { get; set; } = null!;
+    public virtual Imoveis Imovel { get; set; } = null!;
 }
