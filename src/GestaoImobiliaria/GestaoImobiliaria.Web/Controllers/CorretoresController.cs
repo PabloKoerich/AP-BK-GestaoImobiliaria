@@ -48,9 +48,6 @@ namespace GestaoImobiliaria.Web.Controllers
             return View();
         }
 
-        // POST: Corretores/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("CorretorId,Nome,Cpf,Creci,Telefone,Email")] Corretores corretores)
@@ -80,9 +77,7 @@ namespace GestaoImobiliaria.Web.Controllers
             return View(corretores);
         }
 
-        // POST: Corretores/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+    
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("CorretorId,Nome,Cpf,Creci,Telefone,Email")] Corretores corretores)
