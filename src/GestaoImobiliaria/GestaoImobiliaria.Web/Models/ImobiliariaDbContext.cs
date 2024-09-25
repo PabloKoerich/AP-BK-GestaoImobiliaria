@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using GestaoImobiliaria.Web;
 using Microsoft.EntityFrameworkCore;
 
 namespace GestaoImobiliaria.Web.Models;

@@ -33,6 +33,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBase", "DataBase", "{09
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModuloClientes", "ModuloClientes", "{F10E2E9B-E974-4E10-80E8-9A5A30546BC2}"
+	ProjectSection(SolutionItems) = preProject
+		GestaoImobiliaria.Web\Models\Cliente.cs = GestaoImobiliaria.Web\Models\Cliente.cs
+		IClienteRepositorio.cs = IClienteRepositorio.cs
+		IServiceCliente.cs = IServiceCliente.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositorios", "Repositorios", "{1A09BA2B-7FAA-4086-A7CC-99729CF990C5}"
+	ProjectSection(SolutionItems) = preProject
+		RepositorioClientes.cs = RepositorioClientes.cs
+		RepositorioCorretores.cs = RepositorioCorretores.cs
+		RepositorioImoveis.cs = RepositorioImoveis.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuracoes", "Configuracoes", "{5EC79B26-54BF-4AE4-BEEA-6BA3DFDC9E50}"
+	ProjectSection(SolutionItems) = preProject
+		ConnectinsString.cs = ConnectinsString.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +84,8 @@ Global
 		{38578893-64F5-4C43-879D-D37EEE28FD57} = {B4C81CF3-FFD1-4A6E-A290-B3E0CBE6F7FC}
 		{097260A4-FB25-441E-9C9B-BCF8C25A9692} = {8C6EB751-4564-4C84-AC5E-F44DCC598798}
 		{F10E2E9B-E974-4E10-80E8-9A5A30546BC2} = {503E03CF-5948-474A-8313-0AE0EA1E1AE0}
+		{1A09BA2B-7FAA-4086-A7CC-99729CF990C5} = {5EEE8918-AEA3-4C93-8E05-E8FA9431CFA2}
+		{5EC79B26-54BF-4AE4-BEEA-6BA3DFDC9E50} = {5EEE8918-AEA3-4C93-8E05-E8FA9431CFA2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A63171D7-DDAB-46CF-91D8-571164B9148E}
