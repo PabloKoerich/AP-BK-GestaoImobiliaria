@@ -1,4 +1,4 @@
-﻿@model IEnumerable<GestaoImobiliaria.Web.Models.Corretores>
+﻿@model IEnumerable<GestaoImobiliaria.Web.Models.CorretoresViewModel>
 
 @{
     ViewData["Title"] = "Index";
@@ -49,9 +49,9 @@
                 @Html.DisplayFor(modelItem => item.Email)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.CorretorId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.CorretorId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.CorretorId">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.CorretorId">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.CorretorId">Detalhes</a> |
+                <a asp-action="Delete" asp-route-id="@item.CorretorId">Deletar</a>
             </td>
         </tr>
 }

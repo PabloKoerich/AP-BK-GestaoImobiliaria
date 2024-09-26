@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace GestaoImobiliaria.Web.Models;
 
-public partial class Corretores
+public partial class CorretoresViewModel
 {
     public int CorretorId { get; set; }
 

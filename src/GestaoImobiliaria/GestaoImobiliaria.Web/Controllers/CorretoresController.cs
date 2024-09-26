@@ -50,7 +50,7 @@ namespace GestaoImobiliaria.Web.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("CorretorId,Nome,Cpf,Creci,Telefone,Email")] Corretores corretores)
+        public async Task<IActionResult> Create([Bind("CorretorId,Nome,Cpf,Creci,Telefone,Email")] CorretoresViewModel corretores)
         {
             if (ModelState.IsValid)
             {
@@ -80,7 +80,7 @@ namespace GestaoImobiliaria.Web.Controllers
     
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("CorretorId,Nome,Cpf,Creci,Telefone,Email")] Corretores corretores)
+        public async Task<IActionResult> Edit(int id, [Bind("CorretorId,Nome,Cpf,Creci,Telefone,Email")] CorretoresViewModel corretores)
         {
             if (id != corretores.CorretorId)
             {

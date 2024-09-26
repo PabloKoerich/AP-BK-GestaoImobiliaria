@@ -1,6 +1,7 @@
-﻿using Academia.Programador.Bk.Gestao.Imobiliaria.Dominio.ModuloCliente;
+﻿using Academia.Programador.Bk.Gestao.Imobiliaria;
+using GestaoImobiliaria.Dominio.ModuloCliente;
 
-namespace Academia.Programador.Bk.Gestao.Imobiliaria.Web;
+namespace GestaoImobiliaria.Dominio.DominioModels;
 
 public partial class Favorito
 {

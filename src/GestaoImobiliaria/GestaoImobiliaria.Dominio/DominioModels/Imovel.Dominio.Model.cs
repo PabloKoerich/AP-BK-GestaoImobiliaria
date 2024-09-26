@@ -1,6 +1,8 @@
-﻿using Academia.Programador.Bk.Gestao.Imobiliaria.Dominio.ModuloCliente;
+﻿using Academia.Programador.Bk.Gestao.Imobiliaria.Web;
+using GestaoImobiliaria.Dominio.DominioModels;
+using GestaoImobiliaria.Dominio.ModuloCliente;
 
-namespace Academia.Programador.Bk.Gestao.Imobiliaria.Web;
+namespace Academia.Programador.Bk.Gestao.Imobiliaria;
 
 public partial class Imovel
 {
@@ -30,9 +32,9 @@ public partial class Imovel
 
     public virtual Cliente ClienteDono { get; set; } = null!;
 
-    public virtual Corretore CorretorGestor { get; set; } = null!;
+    public virtual Corretores CorretorGestor { get; set; } = null!;
 
-    public virtual Corretore? CorretorNegocio { get; set; }
+    public virtual Corretores CorretorNegocio { get; set; }
 
     public virtual ICollection<Favorito> Favoritos { get; set; } = new List<Favorito>();
 

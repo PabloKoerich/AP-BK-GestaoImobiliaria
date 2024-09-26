@@ -16,9 +16,9 @@ public partial class ImobiliariaDbContext : DbContext
     {
     }
 
-    public virtual DbSet<Cliente> Clientes { get; set; }
+    public virtual DbSet<ClienteViewModel> Clientes { get; set; }
 
-    public virtual DbSet<Corretores> Corretores { get; set; }
+    public virtual DbSet<CorretoresViewModel> Corretores { get; set; }
 
     public virtual DbSet<Favorito> Favoritos { get; set; }
 
@@ -32,7 +32,7 @@ public partial class ImobiliariaDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Cliente>(entity =>
+        modelBuilder.Entity<ClienteViewModel>(entity =>
         {
             entity.HasKey(e => e.ClienteId).HasName("PK__Clientes__71ABD08724C2A1F4");
 
@@ -46,7 +46,7 @@ public partial class ImobiliariaDbContext : DbContext
             entity.Property(e => e.Telefone).HasMaxLength(20);
         });
 
-        modelBuilder.Entity<Corretores>(entity =>
+        modelBuilder.Entity<CorretoresViewModel>(entity =>
         {
             entity.HasKey(e => e.CorretorId).HasName("PK__Corretor__4878C58F372F64E7");
 

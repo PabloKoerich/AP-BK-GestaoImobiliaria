@@ -29,11 +29,11 @@ public partial class Imoveis
 
     public string? Fotos { get; set; }
 
-    public virtual Cliente ClienteDono { get; set; } = null!;
+    public virtual ClienteViewModel ClienteDono { get; set; } = null!;
 
-    public virtual Corretores CorretorGestor { get; set; } = null!;
+    public virtual CorretoresViewModel CorretorGestor { get; set; } = null!;
 
-    public virtual Corretores? CorretorNegocio { get; set; }
+    public virtual CorretoresViewModel? CorretorNegocio { get; set; }
 
     public virtual ICollection<Favorito> Favoritos { get; set; } = new List<Favorito>();
 

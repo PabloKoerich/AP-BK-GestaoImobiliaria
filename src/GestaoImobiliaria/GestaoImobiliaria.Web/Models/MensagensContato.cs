@@ -17,9 +17,9 @@ public partial class MensagensContato
 
     public DateTime DataEnvio { get; set; }
 
-    public virtual Cliente Cliente { get; set; } = null!;
+    public virtual ClienteViewModel Cliente { get; set; } = null!;
 
-    public virtual Corretores Corretor { get; set; } = null!;
+    public virtual CorretoresViewModel Corretor { get; set; } = null!;
 
     public virtual Imoveis Imovel { get; set; } = null!;
 }

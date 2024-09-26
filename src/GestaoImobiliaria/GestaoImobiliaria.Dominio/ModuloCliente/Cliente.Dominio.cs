@@ -1,4 +1,6 @@
-﻿using Academia.Programador.Bk.Gestao.Imobiliaria.Web;
+﻿using Academia.Programador.Bk.Gestao.Imobiliaria;
+using Academia.Programador.Bk.Gestao.Imobiliaria.Web;
+using GestaoImobiliaria.Dominio.DominioModels;
 
 namespace GestaoImobiliaria.Dominio.ModuloCliente;
 
@@ -19,4 +21,8 @@ public partial class Cliente
     public virtual ICollection<Imovel> Imoveis { get; set; } = new List<Imovel>();
 
     public virtual ICollection<MensagensContato> MensagensContatos { get; set; } = new List<MensagensContato>();
+
+    public class Dominio
+    {
+    }
 }
