@@ -53,7 +53,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configura
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DominioModels", "DominioModels", "{E129A7EF-F34E-4A28-B21B-86FD29BAC815}"
 	ProjectSection(SolutionItems) = preProject
-		Corretores.cs = Corretores.cs
+		Favorito.Dominio.Model.cs = Favorito.Dominio.Model.cs
+		Corretores.Dominio.Model.cs = Corretores.Dominio.Model.cs
+		Imovel.Dominio.Model.cs = Imovel.Dominio.Model.cs
+		MensagenDeContato.Dominio.Model.cs = MensagenDeContato.Dominio.Model.cs
 	EndProjectSection
 EndProject
 Global
