@@ -34,8 +34,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBase", "DataBase", "{09
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModuloClientes", "ModuloClientes", "{F10E2E9B-E974-4E10-80E8-9A5A30546BC2}"
 	ProjectSection(SolutionItems) = preProject
+		Cliente.Dominio.cs = Cliente.Dominio.cs
 		IClienteRepositorio.cs = IClienteRepositorio.cs
 		IServiceCliente.cs = IServiceCliente.cs
+		ServiceCliente.cs = ServiceCliente.cs
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RepositoriosEF", "RepositoriosEF", "{1A09BA2B-7FAA-4086-A7CC-99729CF990C5}"
@@ -46,6 +48,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{5EC79B26-54BF-4AE4-BEEA-6BA3DFDC9E50}"
 	ProjectSection(SolutionItems) = preProject
 		ConnectinsString.cs = ConnectinsString.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DominioModels", "DominioModels", "{E129A7EF-F34E-4A28-B21B-86FD29BAC815}"
+	ProjectSection(SolutionItems) = preProject
+		Corretores.cs = Corretores.cs
 	EndProjectSection
 EndProject
 Global
@@ -83,6 +90,7 @@ Global
 		{F10E2E9B-E974-4E10-80E8-9A5A30546BC2} = {503E03CF-5948-474A-8313-0AE0EA1E1AE0}
 		{1A09BA2B-7FAA-4086-A7CC-99729CF990C5} = {5EEE8918-AEA3-4C93-8E05-E8FA9431CFA2}
 		{5EC79B26-54BF-4AE4-BEEA-6BA3DFDC9E50} = {5EEE8918-AEA3-4C93-8E05-E8FA9431CFA2}
+		{E129A7EF-F34E-4A28-B21B-86FD29BAC815} = {503E03CF-5948-474A-8313-0AE0EA1E1AE0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A63171D7-DDAB-46CF-91D8-571164B9148E}
