@@ -41,8 +41,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RepositoriosEF", "RepositoriosEF", "{1A09BA2B-7FAA-4086-A7CC-99729CF990C5}"
 	ProjectSection(SolutionItems) = preProject
 		RepositorioClientes.cs = RepositorioClientes.cs
-		RepositorioCorretores.cs = RepositorioCorretores.cs
-		RepositorioImoveis.cs = RepositorioImoveis.cs
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{5EC79B26-54BF-4AE4-BEEA-6BA3DFDC9E50}"
