@@ -1,4 +1,6 @@
-﻿public class ConnectionStrings
+﻿namespace GestaoImobiliaria.Web
+
+public class ConnectionStrings
 {
     public string Master { get; set; }
 }
