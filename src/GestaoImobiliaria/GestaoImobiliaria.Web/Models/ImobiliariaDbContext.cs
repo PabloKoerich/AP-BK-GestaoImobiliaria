@@ -22,7 +22,7 @@ public partial class ImobiliariaDbContext : DbContext
 
     public virtual DbSet<Favorito> Favoritos { get; set; }
 
-    public virtual DbSet<Imoveis> Imoveis { get; set; }
+    public virtual DbSet<ImoveisViewModel> Imoveis { get; set; }
 
     public virtual DbSet<MensagensContato> MensagensContatos { get; set; }
 
@@ -80,7 +80,7 @@ public partial class ImobiliariaDbContext : DbContext
                 .HasConstraintName("FK__Favoritos__Imove__46E78A0C");
         });
 
-        modelBuilder.Entity<Imoveis>(entity =>
+        modelBuilder.Entity<ImoveisViewModel>(entity =>
         {
             entity.HasKey(e => e.ImovelId).HasName("PK__Imoveis__68DA341CEE9B46B8");
 

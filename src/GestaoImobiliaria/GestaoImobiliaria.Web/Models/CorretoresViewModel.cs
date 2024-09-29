@@ -17,9 +17,9 @@ public partial class CorretoresViewModel
 
     public string? Email { get; set; }
 
-    public virtual ICollection<Imoveis> ImoveisCorretorGestors { get; set; } = new List<Imoveis>();
+    public virtual ICollection<ImoveisViewModel> ImoveisCorretorGestors { get; set; } = new List<ImoveisViewModel>();
 
-    public virtual ICollection<Imoveis> ImoveisCorretorNegocios { get; set; } = new List<Imoveis>();
+    public virtual ICollection<ImoveisViewModel> ImoveisCorretorNegocios { get; set; } = new List<ImoveisViewModel>();
 
     public virtual ICollection<MensagensContato> MensagensContatos { get; set; } = new List<MensagensContato>();
 }

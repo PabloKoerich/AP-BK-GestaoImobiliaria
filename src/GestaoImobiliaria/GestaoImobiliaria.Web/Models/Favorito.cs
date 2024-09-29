@@ -15,5 +15,5 @@ public partial class Favorito
 
     public virtual ClienteViewModel Cliente { get; set; } = null!;
 
-    public virtual Imoveis Imovel { get; set; } = null!;
+    public virtual ImoveisViewModel Imovel { get; set; } = null!;
 }

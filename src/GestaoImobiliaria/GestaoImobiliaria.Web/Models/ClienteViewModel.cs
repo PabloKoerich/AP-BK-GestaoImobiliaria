@@ -17,7 +17,7 @@ public partial class ClienteViewModel
 
     public virtual ICollection<Favorito> Favoritos { get; set; } = new List<Favorito>();
 
-    public virtual ICollection<Imoveis> Imoveis { get; set; } = new List<Imoveis>();
+    public virtual ICollection<ImoveisViewModel> Imoveis { get; set; } = new List<ImoveisViewModel>();
 
     public virtual ICollection<MensagensContato> MensagensContatos { get; set; } = new List<MensagensContato>();
 }

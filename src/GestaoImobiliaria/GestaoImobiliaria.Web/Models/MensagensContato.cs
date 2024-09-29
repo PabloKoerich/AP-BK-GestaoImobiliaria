@@ -21,5 +21,5 @@ public partial class MensagensContato
 
     public virtual CorretoresViewModel Corretor { get; set; } = null!;
 
-    public virtual Imoveis Imovel { get; set; } = null!;
+    public virtual ImoveisViewModel Imovel { get; set; } = null!;
 }

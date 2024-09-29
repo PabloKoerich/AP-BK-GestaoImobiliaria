@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace GestaoImobiliaria.Web.Models;
 
-public partial class Imoveis
+public partial class ImoveisViewModel
 {
     public int ImovelId { get; set; }
 
