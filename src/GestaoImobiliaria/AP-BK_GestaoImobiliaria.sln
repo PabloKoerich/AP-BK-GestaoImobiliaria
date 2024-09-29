@@ -51,6 +51,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModuloCorretor", "ModuloCor
 		RepositorioCorretor.cs = RepositorioCorretor.cs
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModuloImoveis", "ModuloImoveis", "{54F169C1-F54A-427D-8913-FAC04C50A2BA}"
+	ProjectSection(SolutionItems) = preProject
+		ImoveisEntityConfiguration.cs = ImoveisEntityConfiguration.cs
+		RepositorioImoveis.cs = RepositorioImoveis.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +93,7 @@ Global
 		{5EC79B26-54BF-4AE4-BEEA-6BA3DFDC9E50} = {5EEE8918-AEA3-4C93-8E05-E8FA9431CFA2}
 		{DBD9F9E2-CAF6-4173-A26B-E447C19113A4} = {1A09BA2B-7FAA-4086-A7CC-99729CF990C5}
 		{6090D060-DA13-463E-AE9C-4F6194562523} = {1A09BA2B-7FAA-4086-A7CC-99729CF990C5}
+		{54F169C1-F54A-427D-8913-FAC04C50A2BA} = {1A09BA2B-7FAA-4086-A7CC-99729CF990C5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A63171D7-DDAB-46CF-91D8-571164B9148E}

@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Academia.Programador.Bk.Gestao.Imobiliaria.DAO.Repositorios.EF.Modulo_Corretor
 {
-    public class CorretorEntityConfiguration : IEntityTypeConfiguration<Corretore>
+    public class CorretorEntityConfiguration : IEntityTypeConfiguration<Corretores>
     {
-        public void Configure(EntityTypeBuilder<Corretore> builder)
+        public void Configure(EntityTypeBuilder<Corretores> builder)
         {
             builder.ToTable("Corretores");
             builder.HasKey(e => e.CorretorId).HasName("PK__Corretor__4878C58FFBA660A3");
