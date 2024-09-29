@@ -35,7 +35,7 @@ public partial class Imovel
 
     public virtual Corretor CorretorGestor { get; set; } = null!;
 
-    public virtual Corretor CorretorNegocio { get; set; }
+    public virtual Corretor? CorretorNegocio { get; set; }
 
     public virtual ICollection<Favorito> Favoritos { get; set; } = new List<Favorito>();
 

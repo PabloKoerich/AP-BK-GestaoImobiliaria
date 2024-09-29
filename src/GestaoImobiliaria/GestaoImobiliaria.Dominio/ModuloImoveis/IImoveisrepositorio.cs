@@ -1,6 +1,4 @@
 ﻿using Academia.Programador.Bk.Gestao.Imobiliaria;
-using GestaoImobiliaria.Dominio.ModuloCliente;
-
 namespace GestaoImobiliaria.Dominio.ModuloImoveis
 {
     public interface IImoveisRepositorio 
