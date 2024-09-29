@@ -12,9 +12,9 @@ namespace GestaoImobiliaria.Dominio.ModuloCorretor
     {
         public int CorretorId { get; set; }
 
-        public string CorretorName { get; set; }
+        public string CorretorNome { get; set; }
         
-        public string CorretorCPF { get; set; } = null!;
+        public string CorretorCpf { get; set; } = null!;
         
         public string CorretorCreci { get; set; } = null!;
         

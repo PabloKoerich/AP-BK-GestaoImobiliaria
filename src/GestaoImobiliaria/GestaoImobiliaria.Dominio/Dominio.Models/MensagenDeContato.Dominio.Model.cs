@@ -1,4 +1,5 @@
 ﻿using GestaoImobiliaria.Dominio.ModuloCliente;
+using GestaoImobiliaria.Dominio.ModuloCorretor;
 
 namespace Academia.Programador.Bk.Gestao.Imobiliaria.Web;
 
@@ -18,7 +19,7 @@ public partial class MensagensContato
 
     public virtual Cliente Cliente { get; set; } = null!;
 
-    public virtual Corretores Corretor { get; set; } = null!;
+    public virtual Corretor Corretor { get; set; } = null!;
 
     public virtual Imovel Imovel { get; set; } = null!;
 }
