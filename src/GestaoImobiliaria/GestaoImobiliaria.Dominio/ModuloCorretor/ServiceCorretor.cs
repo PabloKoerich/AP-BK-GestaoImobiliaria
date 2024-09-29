@@ -1,10 +1,6 @@
 ﻿using Academia.Programador.Bk.Gestao.Imobiliaria.Dominio.ModuloCorretor;
 using GestaoImobiliaria.Dominio.ModuloCliente;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace GestaoImobiliaria.Dominio.ModuloCorretor;
 
