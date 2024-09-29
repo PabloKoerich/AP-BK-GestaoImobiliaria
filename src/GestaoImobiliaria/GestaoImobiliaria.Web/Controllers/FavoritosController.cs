@@ -58,7 +58,7 @@ namespace GestaoImobiliaria.Web.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("FavoritoId,ClienteId,ImovelId,DataAdicionado")] Favorito favorito)
+        public async Task<IActionResult> Create([Bind("FavoritoId,ClienteId,ImovelId,DataAdicionado")] FavoritoViewModel favorito)
         {
             if (ModelState.IsValid)
             {
@@ -94,7 +94,7 @@ namespace GestaoImobiliaria.Web.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("FavoritoId,ClienteId,ImovelId,DataAdicionado")] Favorito favorito)
+        public async Task<IActionResult> Edit(int id, [Bind("FavoritoId,ClienteId,ImovelId,DataAdicionado")] FavoritoViewModel favorito)
         {
             if (id != favorito.FavoritoId)
             {

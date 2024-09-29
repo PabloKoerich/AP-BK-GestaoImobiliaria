@@ -35,7 +35,7 @@ public partial class ImoveisViewModel
 
     public virtual CorretoresViewModel? CorretorNegocio { get; set; }
 
-    public virtual ICollection<Favorito> Favoritos { get; set; } = new List<Favorito>();
+    public virtual ICollection<FavoritoViewModel> Favoritos { get; set; } = new List<FavoritoViewModel>();
 
     public virtual ICollection<MensagensContato> MensagensContatos { get; set; } = new List<MensagensContato>();
 }

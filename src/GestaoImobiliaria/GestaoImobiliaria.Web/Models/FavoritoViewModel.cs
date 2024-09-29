@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-
+﻿
 namespace GestaoImobiliaria.Web.Models;
 
-public partial class Favorito
+public partial class FavoritoViewModel
 {
     public int FavoritoId { get; set; }
 

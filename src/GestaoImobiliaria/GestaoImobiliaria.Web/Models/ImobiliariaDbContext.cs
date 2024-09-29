@@ -20,7 +20,7 @@ public partial class ImobiliariaDbContext : DbContext
 
     public virtual DbSet<CorretoresViewModel> Corretores { get; set; }
 
-    public virtual DbSet<Favorito> Favoritos { get; set; }
+    public virtual DbSet<FavoritoViewModel> Favoritos { get; set; }
 
     public virtual DbSet<ImoveisViewModel> Imoveis { get; set; }
 
@@ -65,7 +65,7 @@ public partial class ImobiliariaDbContext : DbContext
             entity.Property(e => e.Telefone).HasMaxLength(20);
         });
 
-        modelBuilder.Entity<Favorito>(entity =>
+        modelBuilder.Entity<FavoritoViewModel>(entity =>
         {
             entity.HasKey(e => e.FavoritoId).HasName("PK__Favorito__CFF711E5CCB52607");
 
