@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Academia.Programador.Bk.Gestao.Imobiliaria.DAO.Repositorios.EF.Modulo_Imoveis
+namespace namespace GestaoImobiliaria.Dominio.ModuloImoveis
 {
     public class ImoveisEntityConfiguration : IEntityTypeConfiguration<Imoveis>
     {

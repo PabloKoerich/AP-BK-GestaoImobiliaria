@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Academia.Programador.Bk.Gestao.Imobiliaria.DAO.Repositorios.EF.Modulo_Corretor
+namespace GestaoImobiliaria.Dominio.ModuloImoveisModulo_Corretor
 {
     public class CorretorEntityConfiguration : IEntityTypeConfiguration<Corretores>
     {

@@ -1,8 +1,7 @@
 ﻿using Academia.Programador.Bk.Gestao.Imobiliaria.Dominio.ModuloCorretor;
 using Microsoft.EntityFrameworkCore;
 
-namespace Academia.Programador.Bk.Gestao.Imobiliaria.DAO.Repositorios.EF.Modulo_Corretor
-{
+namespace namespace GestaoImobiliaria.Dominio.ModuloImoveis
     public class ImoveisRepositorio : IImoveisRepositorio
     {
         private readonly ImobiliariaDbContext _context;

@@ -1,7 +1,7 @@
 ﻿using Academia.Programador.Bk.Gestao.Imobiliaria.Dominio.ModuloCorretor;
 using Microsoft.EntityFrameworkCore;
 
-namespace Academia.Programador.Bk.Gestao.Imobiliaria.DAO.Repositorios.EF.Modulo_Corretor
+namespace GestaoImobiliaria.Dominio.ModuloCorretorDAO.Repositorios.EF.Modulo_Corretor
 {
     public class CorretorRepositorio : ICorretorRepositorio
     {
