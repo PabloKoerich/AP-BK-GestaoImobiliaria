@@ -33,13 +33,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBase", "DataBase", "{09
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RepositoriosEF", "RepositoriosEF", "{1A09BA2B-7FAA-4086-A7CC-99729CF990C5}"
-	ProjectSection(SolutionItems) = preProject
-		RepositorioClientes.cs = RepositorioClientes.cs
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{5EC79B26-54BF-4AE4-BEEA-6BA3DFDC9E50}"
 	ProjectSection(SolutionItems) = preProject
 		ConnectinsString.cs = ConnectinsString.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModuloClientes", "ModuloClientes", "{DBD9F9E2-CAF6-4173-A26B-E447C19113A4}"
+	ProjectSection(SolutionItems) = preProject
+		ClienteEntityConfiguration.cs = ClienteEntityConfiguration.cs
+		RepositorioClientes.cs = RepositorioClientes.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModuloCorretor", "ModuloCorretor", "{6090D060-DA13-463E-AE9C-4F6194562523}"
+	ProjectSection(SolutionItems) = preProject
+		CorretorEntityConfiguration.cs = CorretorEntityConfiguration.cs
+		RepositorioCorretor.cs = RepositorioCorretor.cs
 	EndProjectSection
 EndProject
 Global
@@ -76,6 +85,8 @@ Global
 		{097260A4-FB25-441E-9C9B-BCF8C25A9692} = {8C6EB751-4564-4C84-AC5E-F44DCC598798}
 		{1A09BA2B-7FAA-4086-A7CC-99729CF990C5} = {5EEE8918-AEA3-4C93-8E05-E8FA9431CFA2}
 		{5EC79B26-54BF-4AE4-BEEA-6BA3DFDC9E50} = {5EEE8918-AEA3-4C93-8E05-E8FA9431CFA2}
+		{DBD9F9E2-CAF6-4173-A26B-E447C19113A4} = {1A09BA2B-7FAA-4086-A7CC-99729CF990C5}
+		{6090D060-DA13-463E-AE9C-4F6194562523} = {1A09BA2B-7FAA-4086-A7CC-99729CF990C5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A63171D7-DDAB-46CF-91D8-571164B9148E}
