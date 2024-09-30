@@ -1,4 +1,5 @@
 ﻿
+
 namespace GestaoImobiliaria.Dominio.ModuloImoveis
 {
     public class ServiceImoveis : IServiceImoveis
@@ -10,6 +11,35 @@ namespace GestaoImobiliaria.Dominio.ModuloImoveis
             _imoveisRepositorio = (IServiceImoveis)imoveisRepositorio;
         }
 
+        public void CriarImovel(Imoveis imoveis)
+        {
+            throw new NotImplementedException();
+        }
+
+        public object ImovelPorId(object ImovelId, int imovelId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Remover(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void SalvarImovel(Imoveis imoveis)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Imoveis TragaImoveisPorId(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Imoveis> TragaTodosImoveis()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
 
