@@ -12,5 +12,6 @@ namespace GestaoImobiliaria.Dominio.ModuloImoveis
 
         void Remover(int id);
         object ImovelPorId (object ImovelId, int imovelId);
+
     }
 }
