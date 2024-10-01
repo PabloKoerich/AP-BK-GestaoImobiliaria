@@ -15,69 +15,69 @@ Para garantir que sua imobili?ria fosse um sucesso, John precisava de um sistema
 
 ### Requisitos Funcionais do Sistema de Gest?o da Wick Realty Lages
 
-1. **Gest?o de Im?veis**:
-   - **Cadastro de Im?veis**: O sistema deve permitir o cadastro de novos im?veis, incluindo detalhes como endere?o, tipo (casa, apartamento, terreno), ?rea em metros quadrados, valor de venda ou loca??o, e uma descri??o detalhada. Al?m disso, ? obrigat?rio que cada im?vel tenha um corretor respons?vel e um cliente como dono. Esses campos n?o podem ser deixados em branco.
-   - **Edi??o e Exclus?o de Im?veis**: A equipe precisa editar os detalhes de im?veis existentes e excluir aqueles que n?o est?o mais dispon?veis. Durante a edi??o, o sistema deve verificar se h? duplica??o de informa??es, como endere?os j? cadastrados.
-   - **Visualiza??o de Im?veis**: Deve ser poss?vel visualizar uma lista de im?veis com filtros por tipo, valor, localiza??o e disponibilidade. A lista deve indicar claramente o corretor respons?vel por cada im?vel.
-   - **Upload de Fotos**: Cada im?vel deve ter a op??o de upload de fotos, permitindo que os clientes vejam detalhes visuais dos im?veis.
-   - **Controle de Duplica??o**: Ao cadastrar um im?vel, o sistema deve verificar se j? existe um im?vel com o mesmo endere?o ou descri??o. Em caso afirmativo, deve alertar o usu?rio e impedir o cadastro duplicado.
+1. **Gest?o de Imoveis**:
+   - **Cadastro de Im?veis**: O sistema deve permitir o cadastro de novos imoveis, incluindo detalhes como endereço, tipo (casa, apartamento, terreno), área em metros quadrados, valor de venda ou locação, e uma descrição detalhada. Além disso, é obrigatório que cada imóvel tenha um corretor responsável e um cliente como dono. Esses campos não podem ser deixados em branco.
+   - **Edição e Exclusão de Imóveis**: A equipe precisa editar os detalhes de imóveis existentes e excluir aqueles que não estão mais disponíveis. Durante a edição, o sistema deve verificar se há duplicação de informações, como endereços já cadastrados.
+   - **Visualização de Imóveis**: Deve ser possível visualizar uma lista de imóveis com filtros por tipo, valor, localização e disponibilidade. A lista deve indicar claramente o corretor responsável por cada imóvel.
+   - **Upload de Fotos**: Cada imóvel deve ter a opção de upload de fotos, permitindo que os clientes vejam detalhes visuais dos imóveis.
+   - **Controle de Duplicação**: Ao cadastrar um imóvel, o sistema deve verificar se já existe um imóvel com o mesmo endereço ou descrição. Em caso afirmativo, deve alertar o usuário e impedir o cadastro duplicado.
 
-2. **Gest?o de Clientes**:
-   - **Cadastro de Clientes**: O sistema deve permitir o cadastro de clientes com informa??es como nome, CPF (?nico), telefone, e-mail e suas prefer?ncias de im?vel. O CPF deve ser ?nico e obrigat?rio.
-   - **Edi??o e Exclus?o de Clientes**: A equipe deve poder atualizar as informa??es dos clientes e remover registros quando necess?rio. O sistema deve garantir que n?o haja CPFs duplicados.
-   - **Hist?rico de Intera??es**: Cada cliente deve ter um hist?rico de intera??es, incluindo im?veis visualizados e contatos feitos.
+2. **Gestão de Clientes**:
+   - **Cadastro de Clientes**: O sistema deve permitir o cadastro de clientes com informações como nome, CPF (único), telefone, e-mail e suas preferências de imóvel. O CPF deve ser único e obrigatório.
+   - **Edição e Exclusão de Clientes**: A equipe deve poder atualizar as informaçõees dos clientes e remover registros quando necessário. O sistema deve garantir que não haja CPFs duplicados.
+   - **Histórico de Interações**: Cada cliente deve ter um histórico de interações, incluindo imóveis visualizados e contatos feitos.
 
-3. **Gest?o de Corretores**:
-   - **Cadastro de Corretores**: Deve ser poss?vel cadastrar corretores, incluindo nome, CPF (?nico), registro CRECI, telefone e e-mail. Cada corretor ser? respons?vel por um conjunto de im?veis, e o sistema deve impedir CPFs ou CRECIs duplicados.
-   - **Atribui??o de Im?veis**: Corretores precisam ser atribu?dos a im?veis espec?ficos. Um im?vel n?o pode ser cadastrado sem um corretor respons?vel. A aplica??o deve permitir que os gestores da imobili?ria atribuam ou reatribuam corretores a im?veis conforme necess?rio.
-   - **Prospec??o de Im?veis**: Corretores devem ter acesso ? lista de clientes que favoritaram im?veis sob sua gest?o. Eles podem entrar em contato diretamente com esses clientes para discutir mais detalhes e potencialmente fechar neg?cios.
+3. **Gestão de Corretores**:
+   - **Cadastro de Corretores**: Deve ser possível cadastrar corretores, incluindo nome, CPF (único), registro CRECI, telefone e e-mail. Cada corretor será responsável por um conjunto de imóveis, e o sistema deve impedir CPFs ou CRECIs duplicados.
+   - **Atribuição de Imóveis**: Corretores precisam ser atribuídos a imóveis específicos. Um imóvel não pode ser cadastrado sem um corretor responsável. A aplicação deve permitir que os gestores da imobiliária atribuam ou reatribuam corretores a imóveis conforme necessário.
+   - **Prospecão de Imóveis**: Corretores devem ter acesso à lista de clientes que favoritaram imóveis sob sua gestão. Eles podem entrar em contato diretamente com esses clientes para discutir mais detalhes e potencialmente fechar negócios.
 
 4. **Perfil de Cliente**:
-   - **Visualiza??o de Im?veis Dispon?veis**: Clientes logados podem visualizar uma lista de im?veis dispon?veis para venda ou loca??o, com filtros por tipo, valor, localiza??o e outros crit?rios relevantes.
-   - **Detalhes do Im?vel**: Clientes podem acessar uma p?gina de detalhes do im?vel, que inclui uma descri??o completa, fotos, pre?o, e dados de contato do corretor respons?vel.
-   - **Favoritar Im?veis**: Clientes podem marcar im?veis como favoritos. A lista de im?veis favoritos ? acess?vel no perfil do cliente e ser? usada pelos corretores para prospec??o.
-   - **Entrar em Contato**: Os clientes podem enviar mensagens diretamente aos corretores a partir da p?gina de detalhes do im?vel, solicitando mais informa??es ou agendando visitas.
+   - **Visualização de Imóveis Disponíveis**: Clientes logados podem visualizar uma lista de imóveis disponíveis para venda ou locação, com filtros por tipo, valor, localização e outros critérios relevantes.
+   - **Detalhes do Imóvel**: Clientes podem acessar uma página de detalhes do imóvel, que inclui uma descrição completa, fotos, preço, e dados de contato do corretor responsável.
+   - **Favoritar Imóveis**: Clientes podem marcar imóveis como favoritos. A lista de imóveis favoritos é acessível no perfil do cliente e será usada pelos corretores para prospecção.
+   - **Entrar em Contato**: Os clientes podem enviar mensagens diretamente aos corretores a partir da página de detalhes do imóvel, solicitando mais informações ou agendando visitas.
 
-5. **Seguran?a e Autentica??o**:
-   - **Autentica??o de Usu?rios**: O sistema deve incluir um mecanismo de login seguro para corretores e clientes. Somente usu?rios autenticados podem acessar funcionalidades sens?veis.
-   - **Controle de Acesso**: Deve haver diferentes n?veis de acesso para garantir que corretores possam gerenciar seus im?veis e clientes, enquanto os clientes s? t?m acesso ?s funcionalidades de visualiza??o e contato.
+5. **Segurança e Autenticação**:
+   - **Autenticação de Usuários**: O sistema deve incluir um mecanismo de login seguro para corretores e clientes. Somente usuários autenticados podem acessar funcionalidades sensíveis.
+   - **Controle de Acesso**: Deve haver diferentes níveis de acesso para garantir que corretores possam gerenciar seus imóveis e clientes, enquanto os clientes só tem acesso às funcionalidades de visualização e contato.
 
-6. **Relat?rios e An?lises**:
-   - **Relat?rios de Vendas e Loca??o**: John quer relat?rios que mostrem o desempenho da imobili?ria, incluindo n?mero de vendas e loca??es por per?odo, e desempenho de cada corretor.
-   - **An?lise de Prefer?ncias de Clientes**: O sistema deve gerar an?lises sobre as prefer?ncias dos clientes, como tipos de im?veis mais procurados, faixas de pre?o e localiza??es mais populares.
+6. **Relatórios e Análises**:
+   - **Relatórios de Vendas e Locação**: John quer relatórios que mostrem o desempenho da imobiliária, incluindo número de vendas e locações por período, e desempenho de cada corretor.
+   - **Análise de Preferências de Clientes**: O sistema deve gerar análises sobre as preferências dos clientes, como tipos de imóveis mais procurados, faixas de preço e localizações mais populares.
 
 7. **Perfil Anonimo**:
 
    - Visualizar 5 imoveis recentes.
-   - Espa?o para cria??o de usuario.
+   - Espaço para criação de usuario.
 
 ### Tecnologias Utilizadas
 - **Backend**: ASP.NET Core, C#
 - **Frontend**: ASP.NET MVC, HTML, CSS
 - **Banco de Dados**: SQL Server
 - **ORM**: Entity Framework Core
-- **Autentica??o**: Iremos construir nossa pr?pria autentica??o por cookie
+- **Autenticação**: Iremos construir nossa própria autenticaçãoo por cookie
 
 ### Estrutura em Camadas (N-layer)
-1. **Camada de Apresenta??o (Presentation Layer)**:
-   - Respons?vel pela interface do usu?rio, utilizando  MVC Views, interage com a camada de dominio.
+1. **Camada de Apresentação (Presentation Layer)**:
+   - Responsável pela interface do usuário, utilizando  MVC Views, interage com a camada de dominio.
    
-2. **Camada de Dom?nio (Domain Layer)**:
+2. **Camada de Domínio (Domain Layer)**:
 
-   - Cont?m a l?gica de neg?cio e os servi?os, como valida??es e regras espec?ficas
-   - Modelos de dom?nio e regras de neg?cios centrais.
+   - Contém a lógica de negócio e os serviços, como validações e regras específicas
+   - Modelos de domínio e regras de negócios centrais.
 
 3. **Camada de acceso a dados DAO(Data Access Object) **:
-   - Intera??o com o banco de dados atrav?s do Entity Framework Core.
+   - Interação com o banco de dados através do Entity Framework Core.
 	
 4. **Testes**
    
-  - Local para realizar testes da solu??o, unitario, integra??o e automa??o.
+  - Local para realizar testes da solução, unitário, integração e automação.
   - Iremos usar xunit 
 
 5. **Docs**
 
-  - Pasta de documenta??o, como scripts de banco
+  - Pasta de documentação, como scripts de banco
 
 Comando para gerar modelos de classe baseado nas tabelas.
 
