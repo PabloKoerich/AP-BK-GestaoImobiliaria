@@ -1,5 +1,4 @@
-﻿using GestaoImobiliaria.Dominio.ModuloCorretor;
-
+﻿
 namespace GestaoImobiliaria.Dominio.ModuloImoveis
 {
     public interface IServiceImoveis
