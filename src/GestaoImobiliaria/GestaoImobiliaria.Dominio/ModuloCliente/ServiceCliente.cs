@@ -1,4 +1,5 @@
-﻿namespace GestaoImobiliaria.Dominio.ModuloCliente;
+﻿
+namespace GestaoImobiliaria.Dominio.ModuloCliente;
 
 public class ServiceCliente : IServiceCliente
 {
@@ -12,9 +13,14 @@ public class ServiceCliente : IServiceCliente
     public void CriarCliente(Cliente cliente)
     {
         //Para validar duplicidade
-        ValidacaoDuplicacao(cliente);
+        ValidacaoDuplicidade(cliente);
 
         _clienteRepositorio.CriarCliente(cliente);
+    }
+
+    private void ValidacaoDuplicidade(Cliente cliente)
+    {
+        throw new NotImplementedException();
     }
 
     private void ValidacaoDuplicacao(Cliente cliente)

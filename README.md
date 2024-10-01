@@ -3,7 +3,7 @@
 
 ---
 
-**Cen?rio:**
+**Cenário:**
 
 John Wick, depois de uma longa carreira em Nova York, decidiu se estabelecer em Lages, uma cidade tranquila e charmosa no sul do Brasil. Com uma vista para as montanhas e um clima acolhedor, Lages parecia o lugar perfeito para come?ar de novo. Ao caminhar pelas ruas hist?ricas da cidade, John percebeu o potencial do mercado imobili?rio local e decidiu abrir uma imobili?ria. Assim nasceu a **Wick Realty Lages**, uma empresa focada em im?veis de alto padr?o e em proporcionar um servi?o personalizado para seus clientes.
 
@@ -13,10 +13,10 @@ Para garantir que sua imobili?ria fosse um sucesso, John precisava de um sistema
 
 ---
 
-### Requisitos Funcionais do Sistema de Gest?o da Wick Realty Lages
+### Requisitos Funcionais do Sistema de Gestão da Wick Realty Lages
 
-1. **Gest?o de Imoveis**:
-   - **Cadastro de Im?veis**: O sistema deve permitir o cadastro de novos imoveis, incluindo detalhes como endereço, tipo (casa, apartamento, terreno), área em metros quadrados, valor de venda ou locação, e uma descrição detalhada. Além disso, é obrigatório que cada imóvel tenha um corretor responsável e um cliente como dono. Esses campos não podem ser deixados em branco.
+1. **Gestão de Imoveis**:
+   - **Cadastro de Imóveis**: O sistema deve permitir o cadastro de novos imóveis, incluindo detalhes como endereço, tipo (casa, apartamento, terreno), área em metros quadrados, valor de venda ou locação, e uma descrição detalhada. Além disso, é obrigatório que cada imóvel tenha um corretor responsável e um cliente como dono. Esses campos não podem ser deixados em branco.
    - **Edição e Exclusão de Imóveis**: A equipe precisa editar os detalhes de imóveis existentes e excluir aqueles que não estão mais disponíveis. Durante a edição, o sistema deve verificar se há duplicação de informações, como endereços já cadastrados.
    - **Visualização de Imóveis**: Deve ser possível visualizar uma lista de imóveis com filtros por tipo, valor, localização e disponibilidade. A lista deve indicar claramente o corretor responsável por cada imóvel.
    - **Upload de Fotos**: Cada imóvel deve ter a opção de upload de fotos, permitindo que os clientes vejam detalhes visuais dos imóveis.

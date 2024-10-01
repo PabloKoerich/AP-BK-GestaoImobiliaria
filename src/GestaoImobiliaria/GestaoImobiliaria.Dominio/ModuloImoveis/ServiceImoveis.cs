@@ -14,23 +14,29 @@ namespace GestaoImobiliaria.Dominio.ModuloImoveis
         public void CriarImovel(Imoveis imoveis)
         {
             throw new NotImplementedException();
+        } // ok
+
+        public void Remover(int id) //ok
+        {
+            _imoveisRepositorio.Remover(id);
         }
 
-        public object ImovelPorId(object ImovelId, int imovelId)
+        public void SalvarImovel(Imoveis imoveis) //ok
+        {
+            ValidarDuplicidade(imoveis);
+            _imoveisRepositorio.SalvarImovel(imoveis);
+        }
+
+        public void ValidarDuplicidade(Imoveis imoveis) //ok
         {
             throw new NotImplementedException();
         }
 
-        public void Remover(int id)
+        public object ImovelPorId(object ImovelId, int imovelId) // ok
         {
-            throw new NotImplementedException();
+            return _imoveisRepositorio.TragaImoveisPorId;
         }
-
-        public void SalvarImovel(Imoveis imoveis)
-        {
-            throw new NotImplementedException();
-        }
-
+     
         public Imoveis TragaImoveisPorId(int id)
         {
             throw new NotImplementedException();
@@ -42,79 +48,3 @@ namespace GestaoImobiliaria.Dominio.ModuloImoveis
         }
     }
 }
-
-
-
-
-
-
-
-
-      // daqui para baixo......
-
-    //    public void CriarCorretor(Corretor corretor)
-    //    {
-    //        ValidacaoDuplicidade(corretor);
-    //        _corretorRepositorio.CriarCorretor(corretor);
-    //    }
-
-    //    private void ValidacaoDuplicidade(Corretor corretor)
-    //    {
-    //        var exiteCorretorCpf = _corretorRepositorio.CorretorPorCpf(corretor.Cpf, corretor.CorretorId);
-
-    //        if (exiteCorretorCpf is true)
-    //        {
-    //            throw new ClienteExistenteException();
-    //        }
-
-    //        var exiteCorretorEmail = _corretorRepositorio.CorretorPorEmail(corretor.Email, corretor.CorretorId);
-
-    //        if (exiteCorretorEmail is true)
-    //        {
-    //            throw new ClienteExistenteException();
-    //        }
-    //    }
-
-    //    public List<Corretor> TragaTodosCorretor()
-    //    {
-    //        return _corretorRepositorio.TragaTodosCorretores();
-    //    }
-
-    //    public void SalvarCorretor(Corretor corretor)
-    //    {
-    //        //Para validar duplicidade
-    //        ValidacaoDuplicidade(corretor);
-    //        _corretorRepositorio.SalvarCorretor(corretor);
-    //    }
-
-    //    public Corretor TragaCorretorporId(int id)
-    //    {
-    //        return _corretorRepositorio.TragaCorretorPorId(id);
-    //    }
-
-    //    public void Remover(int id)
-    //    {
-    //        _corretorRepositorio.Remover(id);
-    //    }
-
-    //    public List<Corretor> TragaTodosCorretores()
-    //    {
-    //        throw new NotImplementedException();
-    //    }
-
-    //    public Corretor TragaCorretorPorId(int id)
-    //    {
-    //        throw new NotImplementedException();
-    //    }
-
-    //    public object CorretorPorCpf(object cpf, int corretorId)
-    //    {
-    //        throw new NotImplementedException();
-    //    }
-
-    //    public object CorretorPorEmail(object email, int corretorId)
-    //    {
-    //        throw new NotImplementedException();
-    //    }
-    //}
-
